@@ -61,14 +61,16 @@ img {
   width: 200px;        
   height: auto;        
   border-radius: 8px;  
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease, opacity 0.2s ease; 
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  opacity: 0.6; 
 }
 
 img:hover {
   transform: scale(1.05);
   cursor: pointer;
+  opacity: 1.0; 
 }
 
 h4{
